@@ -268,6 +268,282 @@ h3 {
     width: 100%;
 }
 
+.footer {
+    background: #111115;
+    float: left;
+    width: 100%;
+}
+
+.subscribe {
+    width: 100%;
+    margin-left: 20px;
+}
+
+.subscribe__label {
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--white-color);
+    width: 100%;
+    display: block;
+    margin-bottom: 14px;
+}
+
+.subscribe__input {
+    display: block;
+    border-radius: 2px;
+    padding: 11px 7px 11px 10px;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--gray-4-color);
+    background: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 1px solid var(--orange_color);
+    border: none;
+    width: 228px;
+    float: left;
+}
+
+.subscribe__input:focus {
+    outline-color: var(--green_color);
+}
+
+.subscribe__submit {
+    display: block;
+    margin-left: 10px;
+    float: left;
+}
+
+.send_button {
+    padding: 10px 39px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--balack-color);
+    background: var(--light-gray_color);
+    border: 1px solid var(--black-blue_color);
+}
+
+.send_button:hover,
+.send_button:active {
+    color: var(--green_color);
+    background: var(--light-gray_color);
+    border-color: var(--green_color);
+}
+
+.button {
+    padding: 16px;
+    background: var(--orange_gradient);
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--white-color);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 140%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-width: 298px;
+    display: block;
+    float: left;
+}
+
+.button_radius-25 {
+    border-radius: 25px;
+}
+
+.button:hover {
+    background: #E47209;
+}
+
+.button:active {
+    background: var(--green_color);
+}
+
+.button[disabled] {
+    background: #828282;
+    cursor: default;
+}
+
+.button_round {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    min-width: 0;
+    padding: 0;
+    line-height: 58px;
+    font-size: 18px;
+}
+
+.copyright {
+}
+
+.copyright__item {
+    display: block;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 5px 0 2px 0;
+    margin-left: 62px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 3px;
+}
+
+.copyright__item_top {
+    margin-left: 88px;
+}
+
+.copyright__item:first-child {
+    padding-top: 0;
+}
+
+.copyright__item_bold {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.copyright__item:hover,
+.copyright__item:active {
+    color: var(--green_color);
+    border-bottom: 1px solid var(--green_color);
+}
+
+.social-networks {
+    margin: 0;
+    padding: 0;
+}
+
+.social-networks__item {
+    list-style-type: none;
+    display: block;
+    padding: 5px 0;
+    width: 100%;
+    float: left;
+}
+
+.social-networks__item:first-child {
+    padding-top: 0;
+}
+
+.social-networks__link {
+    display: block;
+    height: 26px;
+    float: left;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--white-color);
+    padding-left: 38px;
+    background-image: url("../../assets/icons/social_icons.svg");
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+    background-size: 26px;
+}
+
+.social-networks__link:active,
+.social-networks__link:hover {
+    color: var(--green_color);
+}
+
+.social-networks__link_facebook {
+    background-position-y: 0;
+}
+
+.social-networks__link_facebook:hover {
+    background-position-y: -26px;
+}
+
+.social-networks_youtube {
+    background-position-y: -52px;
+}
+
+.social-networks_youtube:hover {
+    background-position-y: -78px;
+}
+
+.social-networks_twitter {
+    background-position-y: -104px;
+}
+
+.social-networks_twitter:hover {
+    background-position-y: -130px;
+}
+
+.social-networks_instagram {
+    background-position-y: -156px;
+}
+
+.social-networks_instagram:hover {
+    background-position-y: -182px;
+}
+
+.menu {
+    width: 100%;
+    float: left;
+    margin: 7px 12px;
+}
+
+.menu__ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu__li {
+    list-style-type: none;
+    display: block;
+    float: left;
+    padding: 0 29px;
+}
+
+.menu__li:first-child {
+    padding-left: 0;
+}
+
+.menu__li:last-child {
+    padding-right: 0;
+}
+
+.menu__li_big-indent {
+    /*padding: 0 29px;*/
+}
+
+.menu__li_big-indent:first-child {
+    padding-left: 0;
+}
+
+.menu__li_big-indent:last-child {
+    padding-right: 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: var(--white-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.menu__link_active {
+    color: var(--orange_color);
+}
+
+.menu__link_bold {
+    font-weight: 500;
+}
+
+.menu__link:hover,
+.menu__link:active {
+    color: var(--orange_color);
+}
 
 .banner {
     background: #283035 url("../../assets/images/giant_panda.jpg");

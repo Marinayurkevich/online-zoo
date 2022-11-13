@@ -1,1 +1,1 @@
-https://marinayurkevich.github.io/online-zoo/
+https://marinayurkevich.github.io/online-zoo/pages/main/

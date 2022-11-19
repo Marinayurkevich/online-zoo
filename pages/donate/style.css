@@ -41,7 +41,7 @@ h3 {
     font-weight: 400;
     font-size: 36px;
     line-height: 46.8px;
-    color: var(--white-color); 
+    color: var(--white-color);
 }
 
 .text-color_or {
@@ -63,8 +63,8 @@ h3 {
     display: block;
 }
 
-.text-black-blue_color{
-color: var(--black-blue_color);
+.text-black-blue_color {
+    color: var(--black-blue_color);
 }
 
 
@@ -131,7 +131,18 @@ color: var(--black-blue_color);
     display: flex;
 }
 
-.column-1, .column-2, .column-3, .column-4, .column-5, .column-6, .column-7, .column-8, .column-9, .column-10, .column-11, .column-12 {
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6,
+.column-7,
+.column-8,
+.column-9,
+.column-10,
+.column-11,
+.column-12 {
     float: left;
     position: relative;
 }
@@ -224,6 +235,7 @@ color: var(--black-blue_color);
     padding-left: 36px;
 }
 
+
 .pl-90 {
     padding-left: 90px;
 }
@@ -232,6 +244,7 @@ color: var(--black-blue_color);
     padding-top: 18px;
     padding-bottom: 18px;
 }
+
 
 .py-28 {
     padding-top: 28px;
@@ -569,20 +582,20 @@ color: var(--black-blue_color);
 
 .amount {
     width: 100%;
+    margin: auto;
 }
 
 .amount__label {
-    font-size: 24px;
-    line-height: 120%;
-    color: var(--white-color);
+    color: var(--black-color);
     width: 100%;
     display: block;
     margin-bottom: 14px;
+    margin-left: 95px;
 }
 
 .amount__input {
     display: block;
-    border-radius: 2px;
+    border-radius: 1px;
     padding: 11px 7px 11px 10px;
     font-size: 16px;
     line-height: 1;
@@ -590,8 +603,115 @@ color: var(--black-blue_color);
     background: none;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    outline: 1px solid var(--orange_color);
+    /* background-color: solid #333B41; */
+    outline: 1px solid #FFEE2E;
     border: none;
-    width: 228px;
+    width: 268px;
+    height: 54px;
     float: left;
+    color: #FFFFFF;
+    line-height: 140%;
+
+}
+
+.amount__input:focus {
+    outline-color: var(--green_color);
+    background: #E5E5E5;
+    color: #4B9200;
+    background: url("../../assets/icons/dollar.svg") no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+}
+
+input[type=number] {
+    background: #333B41;
+    color: #FFFFFF;
+    line-height: 140%;
+    -moz-appearance: textfield;
+    /*Firefox */
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* input::before{
+    content: url("../../assets/icons/dollar-white.svg") no-repeat;
+} */
+
+
+.inner_block {
+    margin-top: 33px;
+    margin-bottom: -30px;;
+}
+
+
+/* вариант выравнивания 4 diet */
+/* .align-center{
+    text-align: center;
+    line-height: 1.9em;
+} */
+
+
+
+.m_right_65{
+   text-align:right;
+    margin-right:65px;
+    height:1.5em;
+}
+
+.m_right_10{
+    text-align:right;
+    margin-right:10px;
+}
+
+.m-15{
+margin-top: -15px;
+padding-bottom: 20px;
+}
+
+.mt35{
+    padding-top: 70px;
+    margin-top:35px;
+    margin-left:-15px;
+    font-size: larger;
+    
+}
+
+.pb5{
+padding-bottom:5px;
+}
+
+.pt70{
+    padding-top: 30px;
+    margin-left:-20px;
+}
+
+.pt50{
+    padding-top:50px;
+    margin-top: 40px;
+    margin-right:20px;
+}
+
+.pl20{
+    margin-left:-45px;
+}
+
+
+.pb15{
+padding-bottom: 15px;;
+}
+
+
+.mar_r{
+margin-right: 45px;
+}
+
+.pad_r{
+    margin-right: 10px;
 }

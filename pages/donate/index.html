@@ -72,46 +72,43 @@
                             <div class="column-12">
 
                                 <h2 class="text-align_center text-color_or pb5">Pick and feed a friend</h2>
-                               
+
                                 <p class="subtitle pl-90 ">We know the animals bring you joy, and in these extraordinary
                                     times, we’re glad.</p>
                             </div>
                         </div>
-
-
-
-                        <!-- форма Another amount -->
-
                         <div class="row pt70">
                             <div class="column-5">
                                 <div class="pt50">
-                                <p class="m_right_65"><img src="../../assets/images/four.svg" alt="four"></p><br>
-                                <p class="m_right_10">Panda diet for the day.</p>
+                                    <p class="m_right_65"><img src="../../assets/images/four.svg" alt="four"></p><br>
+                                    <p class="m_right_10">Panda diet for the day.</p>
                                 </div>
                             </div>
                             <div class="column-1 mt35">
                                 <p>&#10006;</p>
                             </div>
-
-
                             <div class="column-6 pl20">
                                 <img src="../../assets/images/animals-widget.svg" width="284" alt="panda">
                             </div>
                         </div>
-
-
-
-
-
-
-
-
-
-
                         <div class="row">
                             <div class="column-12">
-                                <form class="amount" action="#" method="get">
-                                    <label class="amount__label" for="amount">Amount</label>
+                                <form class="amount" action="#" method="get">                                                                   
+                                    <div class="slidecontainer">
+                                        <label class="amount__label" for="amount">Amount</label>    
+                                        <input type="range" min="25" max="5000" value="1500" class="slider" id="myRange"
+                                            list="RangeList">
+                                        <datalist class="range__list" id="RangeList">
+                                            <option class="range__opt slider_text" value="5000" label="$5000">
+                                            <option class="range__opt slider_text" value="2000" label="$2000">2000
+                                            <option class="range__opt slider_text__highlited" value="1000" label="$1000">1000
+                                            <option class="range__opt slider_text" value="500" label="$500">500
+                                            <option class="range__opt slider_text" value="250" label="$250">250
+                                            <option class="range__opt slider_text" value="100" label="$100">100
+                                            <option class="range__opt slider_text" value="50" label="$50">50
+                                            <option class="range__opt slider_text" value="25" label="$25">25
+                                        </datalist>
+                                    </div>
                                     <div class="horizontal-align-center">
                                         <input class="amount__input" id="amount" placeholder="Another amount"
                                             type="number" min="0" max="9999">
@@ -119,7 +116,8 @@
                                     <div class="horizontal-align-center inner_block">
                                         <input class="pad_r" type="radio" id="choice1" name="period" value="monthly">
                                         <label class="mar_r" for="choice1">Monthly</label>
-                                        <input class="pad_r" type="radio" id="choice2" name="period" value="once" checked>
+                                        <input class="pad_r" type="radio" id="choice2" name="period" value="once"
+                                            checked>
                                         <label class="mar_r" for="choice2">Once</label>
                                     </div>
                                     <div class="horizontal-align-center pb15">

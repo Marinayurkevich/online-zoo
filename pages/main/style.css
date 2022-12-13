@@ -993,7 +993,7 @@ h3 {
 }
 
 
-@media (max-width:1000px) {
+@media (min-width:641px) and (max-width:1000px) {
     .container {
         width: 940px;
     }
@@ -1170,6 +1170,103 @@ h3 {
 }
 
 
+
+@media (max-width:640px) {
+    .container {
+        width: 640px;
+    }
+    .header {
+        padding: 0px 0; 
+        max-width: 640px;
+        /* width:100%; */
+        position: fixed;        
+        top: 0px;      
+    }
+
+    
+    .logo {
+        background: url("/online-zoo/assets/images/PetStory_online.png");
+        height: 29px;
+        padding: 3px 0 3px 0px;            
+    }
+
+    .menu {
+     display: none;
+    }
+
+    .copyright__item{
+        display:none;       
+    }
+
+ 
+     .banner {
+        background: #283035 url("../../assets/images/Giant_Panda_640.png");
+        height: 373px;
+    }
+   
+    .banner__circle {
+        width: 237.6px;
+        height: 237.6px;
+        top: 42px;
+        right: 70px;
+    }
+
+    .banner__text {
+        font-size: 50px;
+        top: 80px;
+        right: 35px;
+        line-height: 80%;
+    }
+
+    
+    .banner__button {
+        position: absolute;
+        top: 280px;
+        right: 320px;
+    }
+
+    .img_dis{
+        display:none;
+    }
+        
+
+    .main-text {
+        padding: 60px 0 15px 0;
+        background-size: 120px 460px;
+    }
+
+    .pl-44 {
+        padding-left: 20px;
+    }
+
+    .subtitle {        
+        margin: 0px 0 0px 0;        
+    }
+        
+    .paragraph_compact {
+        margin: 21px 0 15px 0;
+    }
+
+    .paragraph {
+       line-height: 1.5;
+    }
+
+    .card {
+        width: 285px;
+        height: 332px;
+        margin: 48px 13px;
+    }
+
+    .card__image {
+        width: 285px;
+        height: 285px;
+    }
+
+    .card-slider__item {
+        margin: -10px 10px;
+    }
+    
+}
 
 
 

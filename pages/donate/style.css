@@ -881,8 +881,8 @@ input::-webkit-inner-spin-button {
   
     
     .logo {
-        background: url("/online-zoo/assets/images/PetStory_online.png");
-        background-repeat: no-repeat;
+        /* background: url("/online-zoo/assets/images/PetStory_online.png");
+        background-repeat: no-repeat; */
         height: 29px;
         padding: 3px 0 3px 0px;            
     }

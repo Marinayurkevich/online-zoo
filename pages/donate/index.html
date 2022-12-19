@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>online-zoo</title>
     <link href="../../assets/styles/normalize.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
@@ -10,41 +11,48 @@
 
 <body>
     <header class="header">
-        <div class="container">
-            <div class="row vertical-align-center">
-                <div class="column-1">
+
+        <input type="checkbox" class="choice" id="burger">
+        <label class="label_choice" for="burger">
+            <div class="menu_burger__one"></div>
+            <div class="menu_burger__two"></div>
+            <div class="menu_burger__three"></div>
+        </label>
+       
+            <div class="row vertical-align-center menu_burger">
+                <div class="column-1 column-640-12">
                     <a href="../main/index.html">
                         <img class="logo" height="52" src="../../assets/images/logo_header.svg" width="82" alt="logo">
                     </a>
                 </div>
-                <div class="column-9">
-                    <nav class="menu pl-36">
+                <div class="column-9 column-640-12">
+                    <nav class="menu pl-36 pl-640-5">
                         <ul class="menu__ul">
-                            <li class="menu__li">
+                            <li class="menu__li menu__li_header">
                                 <a class="menu__link menu__link_bold" href="../main/index.html">About</a>
                             </li>
-                            <li class="menu__li">
+                            <li class="menu__li menu__li_header">
                                 <a class="menu__link menu__link_bold" href="#">Map</a>
                             </li>
-                            <li class="menu__li">
+                            <li class="menu__li menu__li_header">
                                 <a class="menu__link menu__link_bold" href="#">Zoos</a>
                             </li>
-                            <li class="menu__li">
+                            <li class="menu__li menu__li_header">
                                 <a class="menu__link menu__link_active menu__link_bold" href="index.html">Donate</a>
                             </li>
-                            <li class="menu__li">
+                            <li class="menu__li menu__li_header">
                                 <a class="menu__link menu__link_bold" href="#">Contact us</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <div class="column-2 copyright">
-                    <a class="copyright__item_top copyright__item_bold"
+                <div class="column-2 column-640-12 copyright">
+                    <a class="copyright__item copyright__item_top copyright__item_bold"
                         href="https://www.figma.com/file/ypzT9idgAILaSRVRmDAJxn/online-zoo-3-weeks?node-id=0%3A1&t=7lvFbyJApof4cCB2-0"
                         target="blank">Designed by ©</a>
                 </div>
-            </div>
-        </div>
+       </div>
+    </header>
         <main class="main">
             <div class="banner"></div>
             <div class="payment-section">
